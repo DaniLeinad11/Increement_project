@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#top{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#headtext{
+    font-family: calibri;
+    font-size: 45px;
+}
+
+#amount{
+    width: 40px;
+    height: 35px;
+    border-radius: 45%;
+    background-color: grey;
+    margin-left: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#amount-text{
+    font-family: arial;
+    font-size: 31px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#reset{
+    background-color: dodgerblue;
+    width: 90px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: rgb(30, 130, 230);
+    box-shadow: 1px 1px 4px 1px dodgerblue;
+}
+
+#main{
+    width: 450px;
+    height: 400px;
+    margin-left: 120px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.number{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(255, 238, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border: none;
+    margin-left: 30px;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add:hover{
+    background-color: rgb(95, 95, 95);
+}
+
+.remove{
+    width: 50px;
+    height: 50px;
+    background-color: silver;
+    border: none;
+    margin-left: 30px;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete{
+    width: 120px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    margin-left: 30px;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete:hover{
+    background-color: rgb(216, 20, 20);
+}
